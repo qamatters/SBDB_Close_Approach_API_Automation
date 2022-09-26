@@ -8,11 +8,11 @@ Please visit this link to know about the framework:
 https://github.com/karatelabs/karate
 
 **To start the project**, please take a clone of this project from github or 
-follow the steps mentioned:
+follow the steps mentioned in below link:
 https://testwithease.blogspot.com/2021/04/karate-framework-how-to-setup-project.html
 
 Once the project is cloned, Under the regression folder, create your Test suite for
-the project api'S. How to write automation test cases with framework,you
+the project api's. To know more about,how to write automation test cases with framework,you
 can follow this blog:
 https://testwithease.blogspot.com/2020/07/api-automation-with-karate-framework.html
 
@@ -31,7 +31,7 @@ information here.
 inside a docker container.
 
 **Once your automated test is ready, you can run it:** 
-1. By just right clicking on the feature file, and click on run
+1. By just right clicking on the feature file, and click on run (If project is configured in any IDE like Intelij)
 2. You can run the cucumberReport.java file (Make sure the tag is appropriate
    in the cucumber report file)
 3. or you can run it with the help of mvn command
@@ -86,4 +86,4 @@ project. So to view report,please run below docker command:
 
 docker cp <yor docker image id>:/home/SBDB_Close_Approach_API_Automation/Reports/ /Users/<enter username>/IdeaProjects/SBDB_Close_Approach_API_Automation/Reports/
 
-(The above command copying results from docker image reports folder to your local reports folder. It might be that, you will have to change your local folder path here)
+(The above command is copying results from docker image reports folder to your local reports folder. It might be that, you will have to change your local folder path here)
